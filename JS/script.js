@@ -1,6 +1,5 @@
-
 function myFunction() {
-  var x = document.getElementById("myDIV");
+  var x = document.getElementById("toggle");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
