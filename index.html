@@ -8,6 +8,26 @@
 	</head>
 
 	<body>
-		“i love aca.”
+        “i love aca.”
+        <br><br>
+        <button onclick="myFunction()">Press</button>
+        
+        <div id="toggle">
+            ACA just taught me about continuous integration and continuous deployment
+        </div>
+        
+        <script>
+            function myFunction() {
+                var x = document.getElementById("toggle");
+                if (x.style.display === "none") 
+                {
+                    x.style.display = "block";
+                } 
+                else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
+       
 	</body>
 </html>
